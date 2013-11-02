@@ -1,9 +1,8 @@
 #Better PEP8
 
-Better PEP8 is a Sublime plugin which uses the `pep8` or `flake8` command line tool and displays
- the results.
+Better PEP8 is a Sublime plugin which uses the `pep8` or `flake8` command line tool and displays the results. It can be configured to use any other external tool.
 
-It can be configured to use any other external tool.
+![Screenshot](https://raw.github.com/jeremija/BetterPEP8/screenshots/screenshot.png)
 
 **Prerequisites:** [pep8](https://pypi.python.org/pypi/pep8) or [flake8](https://pypi.python.org/pypi/flake8)
 

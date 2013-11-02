@@ -1,0 +1,8 @@
+{
+	"flags" : {
+		"--max-line-length" : "99",
+		"--ignore" : "E126,E127,E128"
+	},
+	"binary" : "flake8",
+	"file-regex" : "(.*):([0-9]*):([0-9]*):[ ](.*)"
+}

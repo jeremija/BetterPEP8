@@ -1,0 +1,11 @@
+[
+    {"caption": "-"},
+    {
+    	"caption": "Better PEP8",
+    	"command": "better_pep8",
+    	"args": {
+    		"paths": []
+    	}
+    },
+    {"caption": "-"}
+]

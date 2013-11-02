@@ -26,7 +26,7 @@ I'll try to add it to Package Control soon.
 
 ##Usage
 
-- `control`-`7` runs the defined command line tool on the current active file
+- `Control`-`7` runs the defined command line tool on the current active file
 - `F4` jumps to next error
 - `Shift`-`F4` jumps to previous error
 

@@ -17,7 +17,7 @@ or via PIP:
 
 ##Installation of the plugin itself (linux):
 
-Clone the this repository to the `$SUBLIME_SETTINGS`/Packages folder, where `$SUBLIME_SETTINGS` is the sublime settings path. So on a linux machine this would be:
+Clone the this repository to the `$SUBLIME_SETTINGS/Packages` folder, where `$SUBLIME_SETTINGS` is the sublime settings path. So on a linux machine this would be:
 
     $ cd ~/.config/sublime-text-2/Packages/
     $ git clone https://github.com/jeremija/BetterPEP8.git

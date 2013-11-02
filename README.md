@@ -21,19 +21,25 @@ or via PIP:
 
 ##Usage
 
-Default command is bind to `CTRL+8`. You can also start it from the sidebar's context menu.
-Multiple directories/files are supported.
+- `control`-`7` runs the defined command line tool on the current active file
+- `F4` jumps to next error
+- `Shift`-`F4` jumps to previous error
+
+Multiple directories/files are supported via the Side Bar's Context Menu.
 
 ##Default configuration file
 
 	{
+		"binary" : "pep8",
 		"flags" : {
 			"--max-line-length" : "99",
 			"--ignore" : "E126,E127,E128"
 		},
-		"binary" : "pep8",
 		"file-regex" : "(.*):([0-9]*):([0-9]*):[ ](.*)"
 	}
+
+ - `binary` the command line tool to launch
+ - `flags` add your options for the command line tool here
 
 Optional property is `line-regex`. The `file-regex` or `line-regex` properties should not be modified if you plan to use pep8 or flake8. Changeg the `binary` property to `flake8` if you wish to use flake8 instead of `pep8`.
 

@@ -7,7 +7,7 @@ It can be configured to use any other external tool.
 
 **Prerequisites:** [pep8](https://pypi.python.org/pypi/pep8) or [flake8](https://pypi.python.org/pypi/flake8)
 
-**Installation (ubuntu):**
+##Installation of prerequisites (ubuntu):
 
     $ apt-get install pep8 python-flake8
 
@@ -15,9 +15,14 @@ or via PIP:
 
     $ pip install pep8 flake8
 
-##Installation
+##Installation of the plugin itself (linux):
 
-**Ubuntu:** `sudo apt-get install pep8 python-flake8`
+Clone the this repository to the `$SUBLIME_SETTINGS`/Packages folder, where `$SUBLIME_SETTINGS` is the sublime settings path. So on a linux machine this would be:
+
+    $ cd ~/.config/sublime-text-2/Packages/
+    $ git clone https://github.com/jeremija/BetterPEP8.git
+
+I'll try to add it to Package Control soon.
 
 ##Usage
 

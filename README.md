@@ -21,8 +21,6 @@ Clone the this repository to the `$SUBLIME_SETTINGS/Packages` folder, where `$SU
     $ cd ~/.config/sublime-text-2/Packages/
     $ git clone https://github.com/jeremija/BetterPEP8.git
 
-I'll try to add it to Package Control soon.
-
 ##Usage
 
 - `Control`-`7` runs the defined command line tool on the current active file

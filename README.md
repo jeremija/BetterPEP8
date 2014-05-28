@@ -47,4 +47,6 @@ Optional property is `line-regex`. The `file-regex` or `line-regex` properties s
 
 ##Note
 
-This has been tested to work on Sublime Text 2 and Python 2.7.5+
+This has been tested to work on
+* Sublime Text build 2221
+* Sublime Text build 3059

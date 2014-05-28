@@ -12,7 +12,7 @@ class BetterPep8Command(sublime_plugin.WindowCommand):
 
         command = [settings.get('binary')]
         flags = settings.get('flags')
-        for key, value in flags.iteritems():
+        for key, value in flags.items():
             command.append(key)
             command.append(value)
         command.extend(filenames)

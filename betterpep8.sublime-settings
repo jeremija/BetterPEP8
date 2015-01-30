@@ -1,6 +1,6 @@
 {
     "python" : "python3",
-	"module": "pyflakes",
+	"exec": "/usr/bin/flake8",
     "flags" : {
         "--max-line-length" : "99",
         "--ignore" : "E126,E127,E128"

@@ -11,8 +11,7 @@ class BetterPep8Command(sublime_plugin.WindowCommand):
         settings = self._read_settings()
 
         command = [settings.get('python')]
-        command.append('-m')
-        command.append(settings.get('module'))
+        command.append(settings.get('exec'))
         flags = settings.get('flags')
         for key, value in flags.items():
             command.append(key)

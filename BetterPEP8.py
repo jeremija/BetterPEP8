@@ -10,7 +10,9 @@ class BetterPep8Command(sublime_plugin.WindowCommand):
         filenames = paths or [self._obtain_current_file_name()]
         settings = self._read_settings()
 
-        command = [settings.get('binary')]
+        command = [settings.get('python')]
+        command.append('-m')
+        command.append(settings.get('module'))
         flags = settings.get('flags')
         for key, value in flags.items():
             command.append(key)

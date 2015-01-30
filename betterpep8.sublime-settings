@@ -1,8 +1,9 @@
 {
-	"binary" : "flake8",
-	"flags" : {
-		"--max-line-length" : "99",
-		"--ignore" : "E126,E127,E128"
-	},
-	"file-regex" : "(.*):([0-9]*):([0-9]*):[ ](.*)"
+    "python" : "python3",
+	"module": "pyflakes",
+    "flags" : {
+        "--max-line-length" : "99",
+        "--ignore" : "E126,E127,E128"
+    },
+    "file-regex" : "(.*):([0-9]*):([0-9]*):[ ](.*)"
 }
